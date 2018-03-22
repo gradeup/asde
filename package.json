@@ -17,11 +17,6 @@
 	"files": [
 		"index.js"
 	],
-	"keywords": [
-		"async destructuring",
-		"async await"
-
-	],
 	"dependencies": {},
 	"devDependencies": {
 		"ava": "^0.20.0",
