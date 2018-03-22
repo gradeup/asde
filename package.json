@@ -1,0 +1,38 @@
+{
+	"name": "@gradeup/asde",
+	"version": "0.0.0",
+	"description": "Easy error handling with async await and destructuring",
+	"license": "MIT",
+	"repository": "gradeup/asde",
+	"author": {
+		"name": "Nikhil Srivastava",
+		"email": "niksrc@gmail.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && nyc ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"async destructuring",
+		"async await"
+
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"codecov": "^2.2.0",
+		"nyc": "^11.0.0",
+		"xo": "^0.18.2"
+	},
+	"nyc": {
+		"reporter": [
+			"lcov",
+			"text"
+		]
+	}
+}
