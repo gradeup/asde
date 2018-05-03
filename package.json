@@ -29,5 +29,8 @@
 			"lcov",
 			"text"
 		]
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
