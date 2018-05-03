@@ -20,5 +20,5 @@ test('Works with promise success', async t => {
 test('Works with promise failure', async t => {
 	const [err, value] = await m(failurePromise());
 	t.is(err.message, 'failure');
-	t.is(value, null);
+	t.is(value, undefined);
 });
