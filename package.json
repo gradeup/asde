@@ -1,6 +1,6 @@
 {
 	"name": "@gradeup/asde",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"description": "Easy error handling with async await and destructuring",
 	"license": "MIT",
 	"repository": "gradeup/asde",
